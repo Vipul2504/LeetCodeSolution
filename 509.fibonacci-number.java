@@ -6,11 +6,11 @@
 
 // @lc code=start
 class Solution {
-    public int fib(int N) {
-        if (N <= 1)
-            return N;
+    public int fib(int num) {
+        if (num <= 1)
+            return num;
         else
-            return fib(N - 1) + fib(N - 2);
+            return fib(num - 1) + fib(num - 2);
     }
 }
 // @lc code=end
