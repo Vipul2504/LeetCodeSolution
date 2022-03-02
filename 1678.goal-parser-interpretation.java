@@ -7,8 +7,7 @@
 // @lc code=start
 class Solution {
     public String interpret(String command) {
-        
+        return command.replace("()", "o").replace("(al)", "al");
     }
 }
 // @lc code=end
-
